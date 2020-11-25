@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* font-family: 'Permanent Marker', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+:root {
+    --ion-background-color: rgb(10, 10, 10);
+    /* --ion-background-color-rgb: 255,255,255; */
+    --ion-color-dark: rgb(10, 10, 10);
+  }
+
+.logo{
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 20px;
+  }
+
+.japanese{
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+}
+  
+.title_app{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+}
+
+ion-content{
+  font-family: 'Poppins', sans-serif;
+}
+
+.title{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+ion-content img{
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.footer_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.font_poppins{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font_marker{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+}
+.select_type{
+  padding: 10px 0 0 0 !important;
+}
+
+ion-searchbar{
+  padding: 20px 0 0 0 !important;
+  text-align: right;
+}
+
+ion-button{
+  margin: 0 auto;
+    display: block;
+    margin: 0 25%;
+}
+
+
+.line{
+  height: 2px;
+  background-color: white;
+  margin: 25px 0 10px;
+}

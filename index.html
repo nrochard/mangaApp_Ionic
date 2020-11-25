@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weeb World</title>
+    <!-- Script pour Ionic -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Script pour axios -->
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
+    <!-- Script pour API -->
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+          <ion-toolbar color="light">
+            <ion-title class="title_app">Weeb World</ion-title>
+          </ion-toolbar>
+        </ion-header>
+      
+        <ion-content class="ion-padding">
+          <div>
+
+          </div>
+          <!-- <img style="width: 100%;" src="img/bg.png"> -->
+          <ion-text color="light">
+            <p class="japanese">すべてのマンガを発見する</p>
+          </ion-text>
+            <img style="width: 100%;" src="img/bg.jpg">
+            <div class="line"></div>
+              <form class="form">
+                <ion-list  class="ion-padding select_type">
+                    <ion-item color="light" >
+                      <ion-label class="font_poppins">What are you looking for ?</ion-label>
+                      <ion-select   interface="action-sheet" id="type"  ok-text="Ok" cancel-text="Annuler">
+                        <ion-select-option value="manga">Manga</ion-select-option>
+                        <ion-select-option value="anime">Animé</ion-select-option>
+                        <ion-select-option value="person">Personne</ion-select-option>
+                        <ion-select-option value="character">Personnage</ion-select-option>
+                      </ion-select>
+                    </ion-item>
+                  </ion-list>
+                  <ion-searchbar color="light"  showCancelButton="focus" placeholder="Tap here...." class="input" enterkeyhint="enter"></ion-searchbar>  
+                  <ion-button color="light" class="search_btn ion-padding font_marker" expand="" mode="ios" type="submit">Search</ion-button>
+              </form>
+              <ion-slides pager="true">
+                <ion-slide class="slide1"></ion-slide>
+                <ion-slide class="slide2"></ion-slide>
+                <ion-slide class="slide3"></ion-slide>
+                <ion-slide class="slide4"></ion-slide>
+                <ion-slide class="slide5"></ion-slide>
+                <ion-slide class="slide6"></ion-slide>
+                <ion-slide class="slide7"></ion-slide>
+                <ion-slide class="slide8"></ion-slide>
+                <ion-slide class="slide9"></ion-slide>
+                <ion-slide class="slide10"></ion-slide>
+              </ion-slides>
+
+        </ion-content>
+        
+        <ion-footer>
+          <ion-toolbar color="dark">
+            <ion-title class="footer_title">Powered by Jikan<img class="logo" src="img/jikan.png"></ion-title>
+          </ion-toolbar>
+        </ion-footer>
+    
+      </ion-app>
+</body>
+</html>
