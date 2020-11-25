@@ -81,7 +81,7 @@ function requestToApi(input, typeResult, type){
                         <ion-card-content>
                             <p class="align_synopsis created_at">Created at : ${newDate}</p>
                             <p class="align_synopsis synopsis${i}">${element.synopsis}</p>
-                            <a class="link" target="_blank" href="${element.url}">En savoir plus</a>
+                            <a class="link" target="_blank" href="${element.url}">More informations</a>
                         </ion-card-content>
                     </ion-card>
                 `)
@@ -98,9 +98,12 @@ function requestToApi(input, typeResult, type){
             else{
                 let nbSlide = 1;
                 response.data.results.forEach(element => {
-                    console.log(element);
+
+                    //Reset du contenu
                     let card = document.querySelector(`.slide${nbSlide}`);
                     card.innerHTML="";
+
+                    //Insertion des résultats dans le slider
                     card.insertAdjacentHTML("afterbegin", `
                     <ion-card color="light">
                         <ion-card-header>
@@ -109,10 +112,10 @@ function requestToApi(input, typeResult, type){
                             <ion-card-title class="title ion-padding">${element.name}</ion-card-title>
                         </ion-card-header>
                     </ion-card>`)
+
                     nbSlide++;
                 });
             }
-
     })
     .catch((error) => {
         if(error.response){
