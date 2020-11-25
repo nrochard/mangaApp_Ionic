@@ -36,13 +36,15 @@ ion-content{
 .title{
   font-family: 'Permanent Marker', cursive;
   text-align: center;
+  padding: 0;
+  margin: 15px 0;
 }
 
 ion-content img{
   display: block;
   margin: 0 auto;
   object-fit: cover;
-  width: 100%;
+  width: 100% !important;
 }
 
 .footer_title{
@@ -78,4 +80,41 @@ ion-button{
   height: 2px;
   background-color: white;
   margin: 25px 0 10px;
+}
+
+.nbResult{
+  text-align: center;
+  color: white;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+ion-card-subtitle{
+  color: grey !important;
+    text-align: left;
+}
+
+.align_synopsis{
+  text-align: justify;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.chapter_episode{
+  font-family: 'Poppins';
+  margin: 15px 0 !important;
+  text-align: left;
+}
+
+.link{
+  color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 15px;
+    background-color: black;
+    margin: 15px 0;
+    display: block;
+    font-family: 'Poppins';
+}
+.created_at{
+  margin-bottom: 15px !important;
 }
