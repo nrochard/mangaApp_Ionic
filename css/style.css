@@ -118,3 +118,18 @@ ion-card-subtitle{
 .created_at{
   margin-bottom: 15px !important;
 }
+
+.action-sheet-cancel{
+  color: white !important;
+  font-family: 'Poppins' !important;
+}
+
+.select-interface-option{
+  color: black !important;
+  font-family: 'Poppins' !important;
+}
+
+.action-sheet-selected{
+  color:white !important;
+}
+

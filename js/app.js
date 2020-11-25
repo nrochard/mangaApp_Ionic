@@ -129,7 +129,7 @@ function requestToApi(input, typeResult, type){
 async function displayError(messageError) {
     const toast = document.createElement('ion-toast');
     toast.message = messageError;
-    toast.duration = 3000;
+    toast.duration = 2000;
     toast.color = "danger";
     document.body.appendChild(toast);
     return toast.present();
