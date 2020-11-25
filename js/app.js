@@ -7,12 +7,12 @@ document.querySelector(".form").addEventListener("submit", (e) => {
 
     //Gestion d'erreur des types de résultat
     let typeResult;
-    if (type === "Animé" && input){
+    if (type === "Anime" && input){
         typeResult = "anime"
         presentLoading();
         requestToApi(input, typeResult, type);
     }
-    else if (type === "Personnage"  && input){
+    else if (type === "Character"  && input){
         typeResult = "character"
         presentLoading();
         requestToApi(input, typeResult, type);
@@ -22,7 +22,7 @@ document.querySelector(".form").addEventListener("submit", (e) => {
         presentLoading();
         requestToApi(input, typeResult, type);
     }
-    else if (type === "Personne"  && input){
+    else if (type === "Person"  && input){
         typeResult = "person"
         presentLoading();
         requestToApi(input, typeResult, type);
@@ -119,7 +119,7 @@ function requestToApi(input, typeResult, type){
     })
     .catch((error) => {
         if(error.response){
-            displayError("Il y a eu un problème, veuillez réessayer plus tard");
+            displayError("There is a problem, please try later");
         }
     });
     
