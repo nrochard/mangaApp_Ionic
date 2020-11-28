@@ -115,6 +115,7 @@ function requestToApi(input, typeResult, type){
                             <ion-card-subtitle>${type}</ion-card-subtitle>
                             <img src="${element.image_url}">
                             <ion-card-title class="title ion-padding">${element.name}</ion-card-title>
+                            <a class="link" target="_blank" href="${element.url}">More informations</a>
                         </ion-card-header>
                     </ion-card>`)
 
