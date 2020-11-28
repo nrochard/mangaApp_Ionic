@@ -10,6 +10,7 @@
     --ion-background-color: rgb(10, 10, 10);
     /* --ion-background-color-rgb: 255,255,255; */
     --ion-color-dark: rgb(10, 10, 10);
+    --ion-color-medium: rgb(31, 31, 31);
   }
 
 .logo{
@@ -22,6 +23,7 @@
   text-align: center;
   padding: 0;
   margin-top: 0;
+  font-size: 20px;
 }
   
 .title_app{
@@ -62,6 +64,7 @@ ion-content img{
 }
 .select_type{
   padding: 10px 0 0 0 !important;
+  border-radius: 10px !important;
 }
 
 ion-searchbar{
@@ -133,3 +136,10 @@ ion-card-subtitle{
   color:white !important;
 }
 
+.swiper-pagination-bullet-active{
+  background: white !important;
+}
+
+.item-select{
+  border-radius: 10px;
+}

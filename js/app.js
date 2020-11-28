@@ -5,6 +5,11 @@ document.querySelector(".form").addEventListener("submit", (e) => {
     let input = document.querySelector(".input").value;
     let type = document.querySelector("#type").shadowRoot.querySelector(".select-text").innerHTML;
 
+    //Gestion d'erreur si un type de résultat n'est pas choisi
+    if(!type){
+        displayError("Please select what are your looking for !");
+    }
+
     //Gestion d'erreur des types de résultat
     let typeResult;
     if (type === "Anime" && input){
