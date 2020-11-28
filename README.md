@@ -1,6 +1,6 @@
 # mangaApp_Ionic
 A project about the creation of an english application to search information about manga. 
-_Powered by JavaScript and [Ionic](https://ionicframework.com/docs).
+Powered by JavaScript and [Ionic](https://ionicframework.com/docs).
 
 ![alt text](https://github.com/nrochard/mangaApp_Ionic/blob/master/img/bg.jpg)
 
