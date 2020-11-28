@@ -1,12 +1,12 @@
 # mangaApp_Ionic
-A project about the creation of an mobiles's application to search information about manga. 
+A project about the creation of an english application to search information about manga. 
 _Powered by JavaScript and [Ionic](https://ionicframework.com/docs).
 
 ![alt text](https://github.com/nrochard/mangaApp_Ionic/blob/master/img/bg.jpg)
 
 ## What it does
 
-In this application you :
+In this application you can :
 
 - Choose between 4 types of results : manga, anime, person or character
 - Tap in the searchbar a name
