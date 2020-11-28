@@ -1,5 +1,5 @@
 # mangaApp_Ionic
-A project about the creation of an english application to search information about manga. 
+A project about the creation of an english application to search informations about manga. 
 
 I use this API : [Jikan](https://jikan.docs.apiary.io/#)
 
