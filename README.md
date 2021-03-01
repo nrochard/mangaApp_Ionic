@@ -5,6 +5,8 @@ I use this API : [Jikan](https://jikan.docs.apiary.io/#)
 
 Powered by JavaScript and [Ionic](https://ionicframework.com/docs).
 
+Project availaible at : https://nostalgic-bartik-10003d.netlify.app/
+
 ![alt text](https://github.com/nrochard/mangaApp_Ionic/blob/master/img/bg.jpg)
 
 ## What it does
